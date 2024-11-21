@@ -1,0 +1,62 @@
+/* Estilos generales para la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+}
+
+/* Estilo para el título */
+h1 {
+    color: #000;
+    font-size: 2em;
+}
+
+/* Clase para el Imperio */
+.imperio {
+    background-color: red;
+    padding: 10px;
+    color: white;
+    list-style-type: none;
+}
+
+/* Clase para los Rebeldes */
+.rebeldes {
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    list-style-type: none;
+}
+
+/* ID para Darth Vader: aumentar el tamaño de la letra */
+#darth-vader {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* ID para Luke Skywalker: poner en itálica */
+#luke-skywalker {
+    font-style: italic;
+}
+
+/* Clase para los soldados: definir borde a rayas */
+.soldados {
+    border: 3px dashed black; /* Borde a rayas */
+    padding: 5px;
+}
+
+/* Clase para los soldados: aumentar el espacio entre letras */
+.soldados {
+    letter-spacing: 2px; /* Aumenta el espacio entre letras */
+}
+
+/* Clase para las unidades de apoyo: centrar el texto */
+.apoyo {
+    text-align: center;
+}
+
+/* Clase para las naves: poner las letras en mayúscula */
+.naves {
+    text-transform: uppercase;
+    font-weight: bold;
+}
